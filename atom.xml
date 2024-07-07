@@ -6,7 +6,7 @@
   <link href="https://lyron.github.io/atom.xml" rel="self"/>
   
   <link href="https://lyron.github.io/"/>
-  <updated>2024-06-17T07:36:55.165Z</updated>
+  <updated>2024-07-07T15:16:54.517Z</updated>
   <id>https://lyron.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>系统化学习大模型提纲</title>
+    <link href="https://lyron.github.io/2024/07/07/%E7%B3%BB%E7%BB%9F%E5%8C%96%E5%AD%A6%E4%B9%A0%E5%A4%A7%E6%A8%A1%E5%9E%8B%E6%8F%90%E7%BA%B2/"/>
+    <id>https://lyron.github.io/2024/07/07/%E7%B3%BB%E7%BB%9F%E5%8C%96%E5%AD%A6%E4%B9%A0%E5%A4%A7%E6%A8%A1%E5%9E%8B%E6%8F%90%E7%BA%B2/</id>
+    <published>2024-07-07T13:50:08.000Z</published>
+    <updated>2024-07-07T15:16:54.517Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h2><p>想成为一名大模型专家，既需要有充足的大模型应用技巧和经验 这个部分决定了各个大模型从业者的差异化竞争力，也要有充足的基础知识认知(虽然这是相对客观且趋同的能力点但为了能深入浅出的表达出我们对大模型的认知与经验这部分的基础也需要补充)。所以有了这篇学习提纲，谨以此梳理大模型学习路径。<br>梳理思路是能贯穿大模型“理论”与“应用”的全链条，从1.“理论基础”到2.“前沿研究”，再到3.“实践”与4.“商业化”。</p><h2 id="第一部分：基础理论"><a href="#第一部分：基础理论" class="headerlink" title="第一部分：基础理论"></a>第一部分：基础理论</h2><p>要深入理解大模型，必须先掌握其基础理论。<strong>机器学习</strong> 和 <strong>深度学习</strong> 是大模型的根基，<strong>了解这些基础对于理解大模型的工作原理和发展方向至关重要</strong>。</p><h3 id="机器学习基础"><a href="#机器学习基础" class="headerlink" title="机器学习基础"></a>机器学习基础</h3><ul><li><p>监督学习 vs 无监督学习：这些是机器学习的两大主要范式，理解它们是进一步学习任何机器学习算法的基石。</p></li><li><p>线性回归、逻辑回归（基本概念与算法实现）；支持向量机（SVM）；决策树及其集成方法（如随机森林）。&gt;这些是最基础的机器学习算法，通过学习它们，可以掌握机器学习的基本思路和技巧，包括模型训练和评估的基本方法。</p></li></ul><h3 id="深度学习基础"><a href="#深度学习基础" class="headerlink" title="深度学习基础"></a>深度学习基础</h3><ul><li>神经网络基础结构（感知器、多层感知器）<blockquote><p>所有深度学习模型都是基于神经网络的，因此理解神经网络的基本组成和工作原理是至关重要的。</p></blockquote></li><li>前向传播与反向传播原理。<blockquote><p>反向传播是深度学习模型训练的核心算法，梯度下降是模型优化的基本方法，理解它们有助于掌握模型的训练和优化</p></blockquote></li><li>深度学习框架（如TensorFlow, PyTorch的基本使用）</li><li>卷积神经网络（CNN）：用于图像处理；循环神经网络（RNN）：用于序列数据处理；长短期记忆网络（LSTM）：解决RNN的长依赖问题<blockquote><p>这些是深度学习中最重要和常用的模型，各自有特定应用场景（图像处理、序列数据处理、文本处理等）</p></blockquote></li></ul><h3 id="大模型基础"><a href="#大模型基础" class="headerlink" title="大模型基础"></a>大模型基础</h3><ul><li>Transformer模型结构（Attention机制，位置编码）。<blockquote><p>自注意力机制是Transformer工作原理的核心，理解它有助于深入理解大模型的内部工作。</p></blockquote></li><li>预训练与微调的概念与方法。<blockquote><p>预训练和微调是大模型的主要训练策略和方法，非常重要的部分，大模型的效果很大程度取决于这里</p></blockquote></li><li>常见大模型（BERT, GPT, T5等）的工作原理和应用场景。<blockquote><p>Transformer是大模型的基础架构，理解其变种（如BERT、GPT、T5）能够帮助掌握不同类型任务的大模型应用。</p></blockquote></li></ul><h2 id="第二部分：高级技术与前沿研究"><a href="#第二部分：高级技术与前沿研究" class="headerlink" title="第二部分：高级技术与前沿研究"></a>第二部分：高级技术与前沿研究</h2><p>了解前沿研究和高级技术可以帮助你深入理解大模型的最新发展和潜在应用场景，是从入门到精通的必经之路。</p><h3 id="预训练技术"><a href="#预训练技术" class="headerlink" title="预训练技术"></a>预训练技术</h3><ul><li>语言模型预训练方法（例如BERT的Masked Language Model, GPT的自回归方法）<blockquote><p>这些是BERT等模型成功的核心技术，理解这些预训练方法能够帮助提升模型的任务适应性。</p></blockquote></li><li>自监督学习的概念与应用<blockquote><p>自回归模型（如GPT）和双向编码器（如BERT）是当前预训练模型的主要范式</p></blockquote></li></ul><h3 id="优化与加速"><a href="#优化与加速" class="headerlink" title="优化与加速"></a>优化与加速</h3><ul><li>模型剪枝和量化技术（以提高推理速度和减少参数量）<blockquote><p>这些技术能够在不显著降低模型性能的情况下大大减少模型的计算资源需求和推理时间，适应实际应用需求。</p></blockquote></li><li>混合精度训练（降低计算资源需求）<blockquote><p>混合精度训练可以显著加速大模型的训练过程，降低计算资源和时间消耗。</p></blockquote></li><li>分布式训练技术（了解如Data Parallelism, Model Parallelism的实现方法）<blockquote><p>分布式训练是处理大模型和大数据集所必需的技术，能够大幅提升训练效率和速度。</p></blockquote></li></ul><h3 id="大规模数据处理"><a href="#大规模数据处理" class="headerlink" title="大规模数据处理"></a>大规模数据处理</h3><ul><li>数据预处理流程（清洗、归一化、增强）<blockquote><p>高质量的数据预处理和增强对于模型性能的提升非常关键，错误的数据预处理可能导致模型性能大幅下降。</p></blockquote></li><li>多模态数据融合方法（文本与图像、文本与音频等多模态融合）<blockquote><p>多模态数据的处理与融合是实现多种复杂应用场景的重要技术，能够显著提升模型的适应性和表现。</p></blockquote></li></ul><h3 id="最新研究与趋势"><a href="#最新研究与趋势" class="headerlink" title="最新研究与趋势"></a>最新研究与趋势</h3><ul><li>现有模型的改进与变种（例如RoBERTa, ALBERT等）<blockquote><p>现有模型的改进能够解决原有模型的一些缺陷，提高其性能和效率，掌握这些改进是保持技术先进性的关键。</p></blockquote></li><li>无监督学习与自监督学习高级技术<blockquote><p>无监督学习和自监督学习是当前研究的热点，能够减少对标记数据的依赖(在实际生产中非常重要~降本增效的重要手段)，提高模型的泛化能力。</p></blockquote></li><li>多任务学习与终身学习概念及其应用<blockquote><p>多任务学习和终生学习能够提高模型在多任务和长时间应用中的表现，是未来发展的重要方向。</p></blockquote></li></ul><h2 id="第三部分：实践与应用-schedule"><a href="#第三部分：实践与应用-schedule" class="headerlink" title="第三部分：实践与应用(schedule)"></a>第三部分：实践与应用(schedule)</h2><p>实际动手操作是将理论知识与实际应用结合的关键步骤。通过项目实践，可以更好地理解原理并解决实际问题。</p><h3 id="基础实践"><a href="#基础实践" class="headerlink" title="基础实践"></a>基础实践</h3><ul><li>深度学习框架的基础使用（TensorFlow, PyTorch的安装和简单应用）<blockquote><p>熟悉实际应用中常用的深度学习框架是将理论应用于实践的基本步骤。</p></blockquote></li><li>具体任务实现（如文本分类、命名实体识别、机器翻译等）<blockquote><p>从零开始训练一个简单的大模型（激活函数、损失函数、优化算法等）</p></blockquote></li></ul><h3 id="项目实战"><a href="#项目实战" class="headerlink" title="项目实战"></a>项目实战</h3><ul><li>数据集的选择与准备（具体操作方法、注意事项）</li><li>模型预训练与微调过程（Fine-tuning的策略和技巧）</li><li>模型评估与优化（评估指标，如准确率、召回率、F1分数）</li></ul><h3 id="应用场景"><a href="#应用场景" class="headerlink" title="应用场景"></a>应用场景</h3><ul><li>自然语言处理（NLP）典型应用（如聊天机器人、情感分析、摘要生成）</li><li>跨领域应用（大模型在医疗、金融和教育等领域的应用）</li><li>多模态应用（如何在一个大模型中集成不同类型的数据）</li></ul><h2 id="第四部分：商业化与产品化"><a href="#第四部分：商业化与产品化" class="headerlink" title="第四部分：商业化与产品化"></a>第四部分：商业化与产品化</h2><p>大模型的终极目标是创建有实际价值的产品。我自己的观点是，C端的创意会非常的卷而且几乎没有壁垒，通过B端专属业务领域的大模型调优赋能、替换一些原有B端的落后能力我觉得是大模型商业化最主要的方向。</p><h3 id="商业机会分析（有机会可以详细展开谈）"><a href="#商业机会分析（有机会可以详细展开谈）" class="headerlink" title="商业机会分析（有机会可以详细展开谈）"></a>商业机会分析（有机会可以详细展开谈）</h3><ul><li>大模型在各个行业的潜在应用（市场需求与趋势）</li><li>商业机会的发现与分析方法</li></ul><h3 id="产品设计与开发（这个非常重要，大模型产品的迭代机制很大程度决定了在大模型应用场景的领先身位，这个值得专门开一片文章来谈）"><a href="#产品设计与开发（这个非常重要，大模型产品的迭代机制很大程度决定了在大模型应用场景的领先身位，这个值得专门开一片文章来谈）" class="headerlink" title="产品设计与开发（这个非常重要，大模型产品的迭代机制很大程度决定了在大模型应用场景的领先身位，这个值得专门开一片文章来谈）"></a>产品设计与开发（这个非常重要，大模型产品的迭代机制很大程度决定了在大模型应用场景的领先身位，这个值得专门开一片文章来谈）</h3><ul><li>从技术到产品转化的流程（包括MVP开发、用户反馈收集与迭代）</li><li>产品原型设计与用户需求分析</li></ul><h3 id="模型部署与运营"><a href="#模型部署与运营" class="headerlink" title="模型部署与运营"></a>模型部署与运营</h3><ul><li>模型部署方法（如云服务、边缘计算等）。现在github上也非常多从下载模型到部署服务的文章，随便找下chatglm、pdfglm类似的就能搜到</li><li>性能监控与迭代优化（如何监控、优化模型性能）</li><li>安全与隐私保护（如数据加密、访问控制等）</li></ul><h2 id="第五部分：资源"><a href="#第五部分：资源" class="headerlink" title="第五部分：资源"></a>第五部分：资源</h2><p>持续学习与社区交流是保持技术先进性的关键。通过经典书籍、在线课程、技术社区等资源的学习和交流，可以保持对领域内最新发展的了解。</p><h3 id="经典书籍与论文"><a href="#经典书籍与论文" class="headerlink" title="经典书籍与论文"></a>经典书籍与论文</h3><p>重要的教科书与参考书籍（如《深度学习》 by Ian Goodfellow等）<br>关键研究论文（Transformers, BERT, GPT原论文等）</p><p><strong>写在末尾：根据不同的目的例如生产or分享，可以摘取不同部分的提纲内容进行学习，有些章节之间也有可以整合来讲的篆体。谨以此提纲约束后续的知识梳理框架。（博文的产出可能更多偏重在生产过程中的大模型应用技巧，也就是比较有能力差异化的应用部分）</strong></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;p&gt;想成为一名大模型专家，既需要有充足的大模型应用技巧和经验 这个部分决定了各个大模型从业者的差异化竞争力，也要有充足的基础知识认知(虽然这是相</summary>
+      
+    
+    
+    
+    
+    <category term="大模型基础" scheme="https://lyron.github.io/tags/%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%9F%BA%E7%A1%80/"/>
+    
+    <category term="学习提纲" scheme="https://lyron.github.io/tags/%E5%AD%A6%E4%B9%A0%E6%8F%90%E7%BA%B2/"/>
+    
+  </entry>
   
   <entry>
     <title>大模型应用之&#39;COT(思维链)&#39;</title>
